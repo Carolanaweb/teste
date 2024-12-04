@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: Catilde;
+    src: url(./Fonte/Catilde\ light.otf);
+}
+
+body {
+    background-color: #ffebe0;
+    background-image: url(./Inicio.png);
+    background-size: 220vh 52vw;
+    background-repeat: no-repeat;
+}
+
+/* Navegador */
+
+nav {
+    background-color: #c084fcab;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 5px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+nav ul li a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "League Spartan", sans-serif;
+    padding: 0 60px;
+    padding-left: 130px;
+}
+
+nav ul li a:hover {
+    color: #834ab2;
+}
+
+#logo img{
+    margin-top: -20px;
+    height: 90px;
+    padding-left: 40px;
+}
+
+.sol i{
+    font-size: 43px;
+    padding-bottom: 22px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+/* Textos */
+
+h1 {
+    font-size: 5.5em;
+    font-family: Catilde;
+    text-align: center;
+    margin-top: 270px;
+    margin-right: 400px;
+    margin-left: 190px
+}
+
+h2{
+    font-family: Catilde;
+    text-align: center;
+    margin-left: 1100px;
+}
+
+p {
+    text-align: center;
+    font-size: 40px;
+    font-family: "League Spartan", sans-serif;
+    margin-right: 250px;
+    margin-left: 200px;
+    width: 700px;
+}
+
+/*  */
+
+
+
+
+
+/* Rodapé */
+
+
+.copy{
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo2 img{
+    margin-bottom: -120px;
+    height: 128px;
+    padding-left: 70em;
+}
+
+.instagram i{
+    font-size: 60px;
+    padding-left: 400px;
+    margin-top: -40%;
+}
+
+.instagram p{
+    font-size: 40px;
+    color: #ffffff;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+svg{
+    padding: 0;
+    margin: 0;
+}
+
+.wave{
+    margin-top: 70%;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+
+.footer{
+    background-color: #c084fc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 40px 0;
+    margin-bottom: -10;
+    position: relative;
+}
+
+/* ---------Modo escuro--------- */
+
